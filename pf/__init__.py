@@ -1,4 +1,4 @@
-from .ipa import DIACRITICS, STRESS, TONE
+from .ipa import DIACRITICS, STRESS, TONES, VOWELS, TIES
 
 def literal_constrains(literal):
     return set()
