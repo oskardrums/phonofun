@@ -10,6 +10,10 @@ CONTANTS = "β ɓ ç ɕ ð ɖ ɗ ɠ ɢ ħ ɦ ɥ ɧ ʜ ʝ ɟ ɫ ɭ ɬ ʟ ɮ ɱ ŋ
 BASES = VOWELS + CONTANTS
 
 def tokenize(word):
+    """
+    Breaks a `str` containting the IPA phonetic representation of a word to a 
+    `list` of `str`s, each representing a single phonetic sound
+    """
     token = ""
     tokens = []
 
