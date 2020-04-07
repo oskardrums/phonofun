@@ -1,3 +1,5 @@
+from . import sound
+
 def literal_constrains(literal):
     return set()
 
